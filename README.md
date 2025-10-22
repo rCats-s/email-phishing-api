@@ -230,10 +230,10 @@ source env/bin/activate
 pip install -r requirements.txt
 
 # Train the model
-python main.py
+python email-phishing-api.py
 
 # Run the Prediction and API
-python email-phishing-api.py
+python main.py
 
 # Start FastAPI server
 uvicorn main:app --reload
