@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+torch
+torchsummary
+matplotlib
+imbalanced-learn
+joblib
+nltk
+pyspellchecker
+fastapi
+uvicorn
+pydantic
+opendatasets
