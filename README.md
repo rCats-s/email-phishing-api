@@ -1,4 +1,4 @@
-# Phishing Email Deep Learning Detection System API
+# Phishing Email Machine Learning Detection System API
 
 A **machine learning–powered phishing email detector** built with **PyTorch** and **FastAPI**, capable of analyzing raw email text and predicting whether it’s *phishing* or *legitimate*.  
 This project demonstrates the full ML lifecycle, from **data preprocessing and model training** to **real-time API deployment**.
