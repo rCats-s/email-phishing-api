@@ -178,7 +178,7 @@ uvicorn main:app --reload
 ![Training Loss Curve](images/phishing_model.png)
 *Figure 1*
 
-Figure 1: Validation accuracy is slightly lower than training accuracy (and validation loss is higher) because the model prioritises **recall for phishing emails**. In phishing detection, catching as many malicious emails as possible is far more important than achieving the highest overall accuracy or precision, especially on an extremely imbalanced dataset. Accuracy and precision alone can be misleading metrics in this context.
+Figure 1: Validation accuracy is slightly lower than training accuracy (and validation loss is higher) because the model prioritises **recall for phishing emails** (recall is when of all the emails predicted as phishing, which are truly phishing). In phishing detection, catching as many malicious emails as possible is far more important than achieving the highest overall accuracy or precision, especially on an extremely imbalanced dataset. Accuracy and precision alone can be misleading metrics in this context.
 
 ---
 
